@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/twotter-app-front/static/css/main.00a8981f.chunk.css",
+    "main.js": "/twotter-app-front/static/js/main.2fbf58c5.chunk.js",
+    "main.js.map": "/twotter-app-front/static/js/main.2fbf58c5.chunk.js.map",
+    "runtime-main.js": "/twotter-app-front/static/js/runtime-main.6664f979.js",
+    "runtime-main.js.map": "/twotter-app-front/static/js/runtime-main.6664f979.js.map",
+    "static/css/2.a1596f27.chunk.css": "/twotter-app-front/static/css/2.a1596f27.chunk.css",
+    "static/js/2.17853fb5.chunk.js": "/twotter-app-front/static/js/2.17853fb5.chunk.js",
+    "static/js/2.17853fb5.chunk.js.map": "/twotter-app-front/static/js/2.17853fb5.chunk.js.map",
+    "index.html": "/twotter-app-front/index.html",
+    "static/css/2.a1596f27.chunk.css.map": "/twotter-app-front/static/css/2.a1596f27.chunk.css.map",
+    "static/css/main.00a8981f.chunk.css.map": "/twotter-app-front/static/css/main.00a8981f.chunk.css.map",
+    "static/js/2.17853fb5.chunk.js.LICENSE.txt": "/twotter-app-front/static/js/2.17853fb5.chunk.js.LICENSE.txt",
+    "static/media/twotter-logo.37fec0fb.png": "/twotter-app-front/static/media/twotter-logo.37fec0fb.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6664f979.js",
+    "static/css/2.a1596f27.chunk.css",
+    "static/js/2.17853fb5.chunk.js",
+    "static/css/main.00a8981f.chunk.css",
+    "static/js/main.2fbf58c5.chunk.js"
+  ]
+}
