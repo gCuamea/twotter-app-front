@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+
+  /* background-image: linear-gradient(to right bottom, #8cbdca, #212121); */
+  background-image: linear-gradient(to right bottom, #ffffff, #98bdc4);
+  /* background-image: linear-gradient(to right bottom, #111b25, #1e2e41); */
+  /* background-color: #15202b; */
+
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  min-height: 100vh;
+}
+
+.red {
+  background-color: red;
+  color: red;
+}
