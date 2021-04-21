@@ -33,7 +33,7 @@ export const AppRouter = () => {
   }
 
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div>
         <TopNavbar />
         <Switch>
