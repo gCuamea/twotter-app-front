@@ -8,6 +8,7 @@ import { LoginRegister } from '../components/auth/LoginRegister';
 import { Feed } from '../components/dashboard/Feed';
 import { TopNavbar } from '../components/nav/TopNavbar';
 import { ProfileView } from '../components/profile/ProfileView';
+import { Loader, LoaderContainer } from '../styles/reusableStyles';
 import { PrivateRoute } from './PrivateRoute';
 import { PublicRoute } from './PublicRoute';
 
@@ -24,7 +25,11 @@ export const AppRouter = () => {
 
   const { uid, checking } = useSelector((state) => state.auth);
   if (checking) {
-    return <h5>Loading...</h5>;
+    return (
+      <LoaderContainer>
+        <Loader></Loader>
+      </LoaderContainer>
+    );
   }
 
   return (
